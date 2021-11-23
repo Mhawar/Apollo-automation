@@ -10,6 +10,9 @@ with sync_playwright() as p:
  page.fill('input#o3-input' , 'mhawar2018a@gmail.com')
  page.fill('input#o4-input' , 'mhawar2001')
  page.click('#provider-mounter > div > div.zp_2Pnik > div.zp_2YB95 > div > div.zp_1QN2s > div > div.zp_p7Ra4.zp_2ZLGm > div > form > div.zp_18q8k > div > div')
+ page.click('#provider-mounter > div > div:nth-child(2) > div:nth-child(2) > div > div.zp_1DSCs > div.zp_3cHPT > div.zp_3Lzj1 > div > div > div > div.finder-explorer-sidebar-shown.zp_1cI0A.zp_iYGsF > div.zp_1ybjt > div > div.zp_2Ubb3 > div > div > a:nth-child(2)')
+
+ print("Logged i successfully")
  
  
  for i in range (100):
